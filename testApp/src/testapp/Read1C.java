@@ -63,19 +63,6 @@ public class Read1C {
 		String fullString = builder.toString();
 		return fullString;
 
-
-		/*try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-			StringBuilder builder = new StringBuilder();
-			String line = reader.readLine();
-
-			while (line != null) {
-				builder.append(line + System.lineSeparator());
-				line = reader.readLine();
-			}
-			String fullString = builder.toString();
-			System.out.println(fullString);
-			return fullString;
-		}*/
 	}
 
 	static HashMap<String, String> mapSection(String documentString) throws IOException {
