@@ -52,10 +52,6 @@ public class Read1C {
 	static String fullStringFromFile(File file) throws IOException {
 		// Takes file path and makes string of all content of the file
 
-		/*FileInputStream stream = new FileInputStream(file);
-		InputStreamReader isr = new InputStreamReader(stream, "windows-1251");
-		String content = isr.read();*/
-
 		FileInputStream stream = new FileInputStream(file);
 		Scanner sc = new Scanner(stream, "Windows-1251");
 
