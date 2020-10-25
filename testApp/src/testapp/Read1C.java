@@ -81,7 +81,6 @@ public class Read1C {
 		}
 		for (String key: paymentMap.keySet()) {
 		}
-		System.out.println(paymentMap);
 		return paymentMap;
 	}
 
