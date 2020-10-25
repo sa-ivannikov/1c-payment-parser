@@ -24,7 +24,9 @@ public class TestApp {
 
 		//ArrayList<Payment> payments = Read1C.readFromFile(new File("Выписка ГПБ за 20.10.20.txt"));
 		for (Payment p : payments) {
+			// Prints all attributes of objects with overridden toString method.
 			System.out.println(p);
+			
 			System.out.println(p.payer.bank);
 		}
 	}
